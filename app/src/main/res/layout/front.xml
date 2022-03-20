@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+
+    >
+
+    <Button
+        android:id="@+id/btn_questions"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/btn_background_border"
+        android:inputType="text"
+        android:text="@string/btn_front_question"
+        android:textColor="@color/btn_front_text_color"
+        android:textSize="@dimen/btn_text_size"
+
+        />
+
+    <Button
+        android:id="@+id/btn_rate"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/btn_questions"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/btn_background_border"
+        android:inputType="text"
+        android:text="@string/btn_front_rate"
+        android:textColor="@color/btn_front_text_color"
+        android:textSize="@dimen/btn_text_size"
+
+        />
+
+
+</RelativeLayout>

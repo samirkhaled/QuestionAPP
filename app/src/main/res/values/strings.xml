@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Questons</string>
+    <!-- front_activity start   -->
+    <string name="btn_front_question">Questions</string>
+    <string name="btn_front_rate">Rate APP</string>
+    <!-- front_activity End   -->
+
+<!--  questions  start-->
+
+    <string-array name="questions">
+        <item>what is HTML?</item>
+        <item>what is CSS?</item>
+        <item>what is JS?</item>
+        <item>what is PHP?</item>
+    </string-array>
+<!--  questions  end-->
+<!--  answers  start-->
+    <string-array name="answers">
+        <item>HTML is stand for hyper text markup language</item>
+        <item>CSS is stand for cascade style</item>
+        <item>JS is stand for Java Script</item>
+        <item>PHP is stand for Hypertext Preprocessor</item>
+    </string-array>
+
+<!--  answers  end-->
+
+
+
+
+
+</resources>

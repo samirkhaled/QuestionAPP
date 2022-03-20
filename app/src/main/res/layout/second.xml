@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     android:weightSum="100"
+    android:layoutDirection="ltr"
+    tools:context=".Second">
+
+<LinearLayout
+    android:layout_weight="8"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:background="@color/top_bottom_color"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/second_tv_xx"
+        android:text="XX/"
+        android:textSize="@dimen/second_text_size"
+        android:textColor="@color/black_second"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/second_tv_yy"
+        android:text="YY"
+        android:textSize="@dimen/second_text_size"
+        android:textColor="@color/black_second"
+        />
+
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="20"
+    android:background="@color/mid_color"
+    >
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="@dimen/second_voice_width"
+        android:layout_height= "@dimen/second_voice_height"
+        android:id="@+id/second_btn_voice"
+        android:background="@drawable/state_pressed_voice"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="8dp"
+        ></androidx.appcompat.widget.AppCompatButton>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/second_text_size"
+        android:text="@string/btn_front_question"
+        android:id="@+id/second_tv_question"
+        android:layout_marginLeft="8dp"
+        android:textColor="@color/black_second"
+        android:layout_marginTop="12dp"
+        />
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="60"
+        android:orientation="vertical"
+        android:background="@color/mid_color"
+        >
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fillViewport="true"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Press The Button to Answer"
+                    android:textSize="@dimen/second_text_size"
+                    android:textColor="@color/black_second"
+                    android:layout_marginStart="8dp"
+                    android:id="@+id/second_tv_answer"
+                    />
+            </LinearLayout>
+
+        </ScrollView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="12"
+        android:orientation="horizontal"
+        android:background="@color/top_bottom_color"
+        android:gravity="center">
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="@dimen/second_btn_width"
+            android:layout_height="@dimen/second_btn_height"
+            android:background="@drawable/btn_left_state"
+            android:layout_marginEnd="8dp"
+            android:id="@+id/second_btn_back"
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="@dimen/second_btn_width"
+            android:layout_height="@dimen/second_btn_height"
+            android:background="@drawable/btn_answer_state"
+
+            android:id="@+id/second_btn_answer"
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_marginStart="8dp"
+            android:layout_width="@dimen/second_btn_width"
+            android:layout_height="@dimen/second_btn_height"
+            android:background="@drawable/btn_right_state"
+            android:id="@+id/second_btn_nex"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

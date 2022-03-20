@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/kotlin_projects/Questons/app/src/main/res/drawable/btn_answer_state.xml" value="0.183" />
+        <entry key="..\:/kotlin_projects/Questons/app/src/main/res/drawable/btn_background_border.xml" value="0.2265" />
+        <entry key="..\:/kotlin_projects/Questons/app/src/main/res/drawable/btn_left_state.xml" value="0.183" />
+        <entry key="..\:/kotlin_projects/Questons/app/src/main/res/drawable/btn_right_state.xml" value="0.183" />
+        <entry key="..\:/kotlin_projects/Questons/app/src/main/res/drawable/ic_baseline_question_answer_24.xml" value="0.183" />
+        <entry key="..\:/kotlin_projects/Questons/app/src/main/res/drawable/ic_baseline_volume_up_24.xml" value="0.183" />
+        <entry key="..\:/kotlin_projects/Questons/app/src/main/res/drawable/state_pressed.xml" value="0.183" />
+        <entry key="..\:/kotlin_projects/Questons/app/src/main/res/drawable/state_pressed_voice.xml" value="0.183" />
+        <entry key="..\:/kotlin_projects/Questons/app/src/main/res/layout-large/front.xml" value="0.6" />
+        <entry key="..\:/kotlin_projects/Questons/app/src/main/res/layout-normal/front.xml" value="0.536" />
+        <entry key="..\:/kotlin_projects/Questons/app/src/main/res/layout-small/front.xml" value="1.2" />
+        <entry key="..\:/kotlin_projects/Questons/app/src/main/res/layout-sw٣٢٠dp/front_activity.xml" value="0.8800000000000001" />
+        <entry key="..\:/kotlin_projects/Questons/app/src/main/res/layout-sw٤٨٠dp/front_activity.xml" value="0.3890625" />
+        <entry key="..\:/kotlin_projects/Questons/app/src/main/res/layout-sw٦٠٠dp/front_activity.xml" value="0.3890625" />
+        <entry key="..\:/kotlin_projects/Questons/app/src/main/res/layout-sw٧٢٠dp/front_activity.xml" value="0.3890625" />
+        <entry key="..\:/kotlin_projects/Questons/app/src/main/res/layout-xlarge/front.xml" value="0.19453125" />
+        <entry key="..\:/kotlin_projects/Questons/app/src/main/res/layout/dimen.xml" value="0.259375" />
+        <entry key="..\:/kotlin_projects/Questons/app/src/main/res/layout/front.xml" value="0.6225" />
+        <entry key="..\:/kotlin_projects/Questons/app/src/main/res/layout/front_activity.xml" value="0.1" />
+        <entry key="..\:/kotlin_projects/Questons/app/src/main/res/layout/second.xml" value="0.264" />
+        <entry key="..\:/kotlin_projects/Questons/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.164" />
+        <entry key="..\:/kotlin_projects/Questons/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.127" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

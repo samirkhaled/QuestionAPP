@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- front_activity start   -->
+
+    <item name="front_layout_alias" type="layout">@layout/front</item>
+    <dimen name="btn_front_width">400dp</dimen>
+    <dimen name="btn_front_height">200dp</dimen>
+    <dimen name="btn_text_size">50sp</dimen>
+
+    <!-- front_activity End   -->
+    <!--    second start-->
+    <item name="second_layout_alias" type="layout">@layout/second</item>
+    <dimen name="second_text_size">40sp</dimen>
+    <dimen name="second_btn_width">90dp</dimen>
+    <dimen name="second_btn_height">90dp</dimen>
+    <dimen name="second_voice_width">70dp</dimen>
+    <dimen name="second_voice_height">70dp</dimen>
+    <!--    second end-->
+
+</resources>
